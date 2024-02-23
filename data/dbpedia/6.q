@@ -1,0 +1,1 @@
+select ?y where{ ?x <http://dbpedia.org/ontology/influencedBy> ?p1 . ?p1 <http://dbpedia.org/ontology/influencedBy> ?p2 . ?p2 <http://dbpedia.org/ontology/influencedBy> ?p3 . ?p3 <http://dbpedia.org/ontology/influencedBy> ?p4 . ?p4 <http://dbpedia.org/ontology/influencedBy> ?p5 . ?p5 <http://dbpedia.org/ontology/influencedBy> ?y . }
